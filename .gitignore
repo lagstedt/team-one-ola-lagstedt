@@ -1,0 +1,59 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Build directories
+build/
+dist/
+
+# Static build artifacts
+out/
+.next/
+.nuxt/
+
+# Parcel cache
+.cache/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage directory used by testing tools
+coverage/
+
+# MacOS files
+.DS_Store
+
+# Env files (important to avoid committing sensitive information)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore lock files
+package-lock.json
+
+node_modules/.cache/
+
+# public/
